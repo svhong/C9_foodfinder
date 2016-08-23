@@ -1,0 +1,35 @@
+.main {
+    margin-top: 15vw;
+    color: red;
+    -webkit-text-stroke: 2px green;
+    font-family: Chango;
+}
+body {
+    /*background-color: green;*/
+    background-image: url(images/Gradient.jpg);
+    background-size: auto;
+}
+#taco{
+    height: 100px;
+    width: 125px;
+}
+#button{
+    background-color: transparent;
+    border: none;
+    margin-top: 60vw;
+}
+#button:focus{
+    outline: none;
+}
+#button:active #buttonImage{
+    filter: drop-shadow(2px 2px 2px #222);
+    -webkit-filter: drop-shadow(2px 2px 2px #222);
+    height: 190px;
+
+}
+
+#buttonImage{
+    height: 200px;
+    filter: drop-shadow(7px 7px 7px #222);
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+}

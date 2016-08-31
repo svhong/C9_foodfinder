@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Chango" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbT5jDNA6Gpmiv8Of8k6S-GaFBCQRco-s&callback=initMap"></script>
+    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbT5jDNA6Gpmiv8Of8k6S-GaFBCQRco-s&callback=initMap2"></script>-->
+    <script src="map1.js"></script>
+    <!--<script src="map2.js"></script>-->
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark" style="background-color: red;">
+            <h2>Tacos</h2>
+            <div id="zipInput" class="input-group col-xs-offset-8">
+                <input type="text" class="form-control" placeholder="92656">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Go!</button>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <div class="col-xs-12">
+        <h3>Best Quality Option</h3>
+    </div>
+    <div class="col-xs-12">
+        <div class="col-xs-3">
+            <img class="storePic" src="images/placeHolder.png">
+        </div>
+        <div class="col-xs-9">
+            <h2 class="storeName">King Taco</h2>
+            <h5>3.5 Miles Away</h5>
+            <h5>1118 Cypress Ave.<br>
+                Los Angeles, Ca 90065</h5>
+        </div>
+    </div>
+    <div class="col-xs-12">
+        <h3>Cheapest Pricing Option</h3>
+    </div>
+    <div class="col-xs-12">
+        <div class="col-xs-3">
+            <img class="storePic" src="images/placeHolder.png">
+        </div>
+        <div class="col-xs-9">
+            <h2 class="storeName">Taco Bell</h2>
+            <h5>25.8 Miles Away</h5>
+            <h5>26521 ALISO CREEK ROAD<br>
+                ALISO VIEJO, CA 92656</h5>
+        </div>
+    </div>
+    <div id="map" ></div>
+
+
+    <!--<div id="map2" ></div>-->
+</body>
+</html>

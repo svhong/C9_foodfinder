@@ -1,0 +1,104 @@
+.frontMain {
+    margin-top: 15vw;
+    color: red;
+    -webkit-text-stroke: 2px green;
+    font-family: Chango;
+}
+#front{
+    /*background-color: green;*/
+    background-image: url(images/Gradient.jpg);
+    background-size: auto;
+}
+#taco{
+    height: 100px;
+    width: 125px;
+}
+#button{
+    background-color: transparent;
+    border: none;
+    margin-top: 50vw;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+}
+/*@-webkit-keyframes pulsate {*/
+    /*0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}*/
+    /*50% {opacity: 1.0;}*/
+    /*100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}*/
+/*}*/
+@-webkit-keyframes pulse {
+    0% {
+
+        height: 175px;
+    }
+    /*25% {*/
+
+        /*height: 160px;*/
+    /*}*/
+    50%{
+        height: 190px;
+    }
+    /*75%{*/
+        /*height: 180px;*/
+    /*}*/
+    100% {
+        height: 175px;
+    }
+}
+@keyframes pulse {
+    0% {
+
+        height: 175px;
+    }
+    /*25% {*/
+
+        /*height: 160px;*/
+    /*}*/
+    50%{
+        height: 190px;
+    }
+    /*75%{*/
+        /*height: 180px;*/
+    /*}*/
+    100% {
+        height: 175px;
+    }
+}
+#button:focus{
+    outline: none;
+}
+#button:active #buttonImage{
+    filter: drop-shadow(2px 2px 2px white);
+    -webkit-filter: drop-shadow(2px 2px 2px white);
+    height: 175px;
+    animation: none;
+
+}
+
+#buttonImage{
+
+    height: 200px;
+    filter: drop-shadow(7px 7px 7px white);
+    -webkit-filter: drop-shadow(5px 5px 5px white);
+    animation: pulse 2s infinite;
+}
+
+#zipInput {
+    margin-top: -55px;
+}
+.storePic {
+    height: 110px;
+    width: 110px;
+    margin-left: -35px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map,#map2{
+    height: 30%;
+    width:100%;
+}
+
+.storeName {
+}
